@@ -100,12 +100,16 @@ a {
 .navigation__link {
   background-color: #303030;
   margin-top: 5px;
-  font-family: sans-serif;
   padding: 10px 5px;
-  transition: background-color 0.2s;
+  transition: background-color .1s;
   display: grid;
   align-items: center;
+  font-family: 'Roboto', sans-serif;
   grid-template-columns: 1fr 1fr;
+}
+
+.navigation__link div {
+  text-transform: uppercase;
 }
 
 .navigation__link:hover {
@@ -118,7 +122,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 60px) {
+@media only screen and (max-width: 600px) {
   .wrapper {
     grid-template-columns: 20% 1fr;
   }
