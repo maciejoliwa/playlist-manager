@@ -31,7 +31,7 @@
       </router-link>
     </nav>
     <div>
-      <router-view />
+      <router-view style="padding: 15px"/>
     </div>
   </div>
 </template>
