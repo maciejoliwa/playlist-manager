@@ -34,8 +34,13 @@ export default {
     margin-top: 10px;
 }
 
+.track:hover {
+    background-color: #454545;
+}
+
 .track__artist {
     font-size: .9rem;
+    color: #c5c5c5;
 }
 
 .track__name {

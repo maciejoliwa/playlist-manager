@@ -57,7 +57,7 @@ export default {
 <style>
 body {
   margin: 0;
-  background-color: #353535;
+  background: linear-gradient(to bottom right, #151515, #3a3838);
 }
 
 .chosen {
@@ -78,6 +78,7 @@ body {
   margin-top: 10px;
   color: white;
   text-align: center;
+  margin-bottom: 12px;
   font-family: sans-serif;
   font-size: 2rem;
 }
@@ -88,11 +89,10 @@ a {
 }
 
 .navigation {
-  box-shadow: 5px 0 10px 5px rgba(0, 0, 0, 0.37);
+  /*box-shadow: 5px 0 10px 5px rgba(0, 0, 0, 0.37);*/
   left: 0;
   top: 0;
   height: 100%;
-  background-color: #202020;
   display: flex;
   flex-direction: column;
 }
